@@ -1,0 +1,53 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+
+# Logs & caches
+*.log
+*.pot
+*.pyc
+*.pkl
+*.pickle
+*.h5
+*.tmp
+*.DS_Store
+.cache/
+.mypy_cache/
+pytest_cache/
+.pytest_cache/
+
+# -------------------
+# Project specific
+# -------------------
+# Input and output files (avoid committing large or private data)
+data/input/*
+!data/input/.gitkeep  # keep folder tracked
+
+outputs/*
+!outputs/.gitkeep     # keep folder tracked
+
+# Excel & CSV generated reports
+*.xlsx
+*.csv
+
+# -------------------
+# IDEs & OS
+# -------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
